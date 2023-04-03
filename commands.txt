@@ -1,0 +1,5 @@
+To build the image
+docker build -t node-app:1.9 .
+
+To run it
+docker run -d -p 3000:3000 node-app:1.0
